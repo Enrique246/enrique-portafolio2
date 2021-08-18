@@ -16,7 +16,7 @@ export default function About(props) {
         Successfully finding innovative ways to make designs come to life.
       </p>
 <br></br>
-      <div className="row p-5">
+      <div className="row">
         <h2 className="m-4">Enrique Del Castillo Chávez </h2>
         <img
           className="col-sm-1"

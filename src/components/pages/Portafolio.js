@@ -8,7 +8,7 @@ export default function Portafolio(props) {
         <h1 className="m-2" style={{color: "blue"}}>Portafolio</h1>
          {/* Box 1 */}
          <div className="card col-sm-5 mx-5 border-5 border-primary">
-          <img src="/images/Screen Shot 2021-04-29 at 21.14.23.png" className="card-img-top pt-2" alt="Ecommerce-project"/>
+          <img src="public/images/Screen Shot 2021-04-29 at 21.14.23.png" className="card-img-top pt-2" alt="MyBookCloud"/>
           <div className="card-body">
             <h5 className="card-title">My Book Cloud</h5>
             <p className="card-text">An app that promotes reading by giving search results from Google books API. As well as giving the user the option of searching their favorite authors books in the New York Times API.</p>
@@ -23,7 +23,7 @@ export default function Portafolio(props) {
 
         {/* Box 2 */}
         <div className="card col-sm-5 mx-5 border-5 border-primary">
-          <img src="images/Ecommerce backend project.png" className="card-img-top pt-2" alt="Ecommerce-project"/>
+          <img src="public/images/Ecommerce backend project.png" className="card-img-top pt-2" alt="Ecommerce-project"/>
           <div className="card-body">
             <h5 className="card-title">E-commerce Backend Project</h5>
             <p className="card-text">Management of product data for e-commerce site.</p>
