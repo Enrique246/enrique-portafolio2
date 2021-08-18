@@ -3,7 +3,7 @@ import "../../styles/About.css";
 
 export default function About(props) {
   return (
-    <div>
+    <div className="mb-5">
       <h1 className="m-4">About Me</h1>
       <p className="m-4">
         Full-stack web developer recently certified by Tec de Monterrey, web and
@@ -24,6 +24,7 @@ export default function About(props) {
           id="photo"
           alt="..."
         />
+          {/* Logo 1 */}
         <div className="col-md pt-5 text-primary">
           <p>
             <i className="fab fa-react fa-7x" width="10" height="20"></i>
@@ -58,7 +59,7 @@ export default function About(props) {
           </p>
           <h5 className="card-title m-4 text-secondary"> SQL</h5>
         </div>
-      </div>
+      </div> 
       <footer className="bg-black footer justify-content-center">
         <div className="container text-center">
       <a href="https://github.com/Enrique246" style = {{textDecoration:"none", color:"white"}} target="_blank" rel="noopener noreferrer"><span
@@ -68,8 +69,6 @@ export default function About(props) {
 										className="fab fa-linkedin m-2 fa-3x"><i className="sr-only">Linkedin</i></span></a> 
       </div>
       </footer>
-
-      
     </div>
     
   );
