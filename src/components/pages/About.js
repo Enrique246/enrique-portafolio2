@@ -24,6 +24,7 @@ export default function About(props) {
           id="photo"
           alt="..."
         />
+{/* Skills Section */}
         <div className="col-sm-1"><h2 className="m-4">Skills: </h2></div>
           {/* Logo 1 */}
         <div className="col-1 m-4 pt-4 text-primary">
