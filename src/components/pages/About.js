@@ -14,17 +14,17 @@ export default function About(props) {
         professional goals. Teamplayer, bringing a constant positive attitude
         and a strong work ethic, focused on planning and delivering results.
         Successfully finding innovative ways to make designs come to life.
-      </p>
+        </p>
 <br></br>
       <div className="row">
-        <h2 className="m-4">Enrique Del Castillo Chávez </h2>
+      <h1 className="m-4"> Enrique Del Castillo Chávez</h1>
         <img
           className="col-sm-1"
           src="images/Screen Shot 2021-03-10 at 23.59.04.png"
           id="photo"
           alt="..."
         />
-        <h2 className="m-4">Some of my skills... </h2>
+        <div className="col-sm-1"><h2 className="m-4">Skills: </h2></div>
           {/* Logo 1 */}
         <div className="col-1 m-4 pt-4 text-primary">
           <p>
