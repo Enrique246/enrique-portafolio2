@@ -26,7 +26,7 @@ export default function Portafolio(props) {
         <div className="card col-sm-5 mx-5 border-5 border-primary">
           <img src="images/Ecommerce backend project.png" className="card-img-top pt-2" alt="Ecommerce-project"/>
           <div className="card-body">
-            <h5 className="card-title">E-commerce Backend Project</h5>
+            <h5 className="card-title">E-commerce Backend</h5>
             <p className="card-text">Management of product data for e-commerce site.</p>
             <p className="card-text"><strong>Tools and Languages:</strong> NodeJS, JavaScript, MySQL, Express, Insomnia, Sequelize. </p>
           </div>
