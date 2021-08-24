@@ -8,7 +8,7 @@ export default function Portafolio(props) {
         <h1 className="m-2" style={{color: "blue"}}>Portafolio</h1>
          {/* Box 1 */}
          <div className="card col-sm-5 mx-5 border-5 border-primary">
-          <img src="public/images/Screen Shot 2021-04-29 at 21.14.23.png" className="card-img-top pt-2" alt="MyBookCloud"/>
+          <img src="images/Screen Shot 2021-04-29 at 21.14.23.png" className="card-img-top pt-2" alt="MyBookCloud"/>
           <div className="card-body">
             <h5 className="card-title">My Book Cloud</h5>
             <p className="card-text">An app that promotes reading by giving search results from Google books API. As well as giving the user the option of searching their favorite authors books in the New York Times API.</p>
@@ -23,7 +23,7 @@ export default function Portafolio(props) {
 
         {/* Box 2 */}
         <div className="card col-sm-5 mx-5 border-5 border-primary">
-          <img src="public/images/Ecommerce backend project.png" className="card-img-top pt-2" alt="Ecommerce-project"/>
+          <img src="images/Ecommerce backend project.png" className="card-img-top pt-2" alt="Ecommerce-project"/>
           <div className="card-body">
             <h5 className="card-title">E-commerce Backend Project</h5>
             <p className="card-text">Management of product data for e-commerce site.</p>
@@ -56,6 +56,19 @@ export default function Portafolio(props) {
             <small className="text-muted">
             <a href="https://github.com/Enrique246/yoga-project"  target="_blank" rel="noopener noreferrer"><span className="fab fa-github fa-2x" style = {{color:"black"}}><i className="sr-only">Github</i></span></a>&nbsp;&nbsp;&nbsp;
               <a href="https://damp-dawn-28515.herokuapp.com" target="blank_">Link to App</a></small>
+          </div>
+        </div>
+        {/* Box 5 */}
+        <div className="card col-sm-5 mx-5 mt-5 border-5 border-primary">
+          <img src="images/demo.gif" className="card-img-top pt-3" alt="Inspire"/>
+          <div className="card-body">
+            <h5 className="card-title">Inspire</h5>
+            <p className="card-text">A social network that allows users to post, see other users' posts, and buy items in the marketplace.</p>
+          </div>
+          <div className="card-footer m-2">
+            <small className="text-muted">
+            <a href="https://github.com/Enrique246/Inspire"  target="_blank" rel="noopener noreferrer"><span className="fab fa-github fa-2x" style = {{color:"black"}}><i className="sr-only">Github</i></span></a>&nbsp;&nbsp;&nbsp;
+              <a href="https://quiet-cliffs-65370.herokuapp.com/" target="blank_">Link to App</a></small>
           </div>
         </div>
 
