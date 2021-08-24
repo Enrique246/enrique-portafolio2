@@ -24,36 +24,37 @@ export default function About(props) {
           id="photo"
           alt="..."
         />
+        <h2 className="m-4">Some of my skills... </h2>
           {/* Logo 1 */}
-        <div className="col-md pt-5 text-primary">
+        <div className="col-1 m-4 pt-4 text-primary">
           <p>
             <i className="fab fa-react fa-7x" width="10" height="20"></i>
           </p>
           <h5 className="card-title m-4 text-secondary"> React</h5>
         </div>
          {/* Logo 2 */}
-        <div className="col-md pt-5 text-primary">
+        <div className="col-1 m-4 pt-4 text-primary">
           <p>
             <i className="fab fa-node fa-7x" width="10" height="20"></i>
           </p>
           <h5 className="card-title m-3 text-secondary"> NodeJS</h5>
         </div>
         {/* Logo 3 */}
-        <div className="col-md pt-5 text-primary">
+        <div className="col-1 m-5 pt-1 text-primary">
           <p>
             <i className="fas fa-server fa-7x" width="10" height="20"></i>
           </p>
           <h5 className="card-title m-2 text-secondary"> Express</h5>
         </div>
         {/* Logo 4 */}
-        <div className="col-md pt-5 text-primary">
+        <div className="col-1 m-4 pt-4 text-primary">
           <p>
             <i className="fab fa-js-square fa-7x" width="10" height="20"></i>
           </p>
           <h5 className="card-title m-2 text-secondary"> JavaScript</h5>
         </div>
         {/* Logo 5 */}
-        <div className="col-md pt-5 text-primary">
+        <div className="col-1 m-4 pt-4 text-primary">
           <p>
             <i className="fas fa-database fa-7x" width="10" height="20"></i>
           </p>
