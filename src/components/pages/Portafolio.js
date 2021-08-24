@@ -12,6 +12,7 @@ export default function Portafolio(props) {
           <div className="card-body">
             <h5 className="card-title">My Book Cloud</h5>
             <p className="card-text">An app that promotes reading by giving search results from Google books API. As well as giving the user the option of searching their favorite authors books in the New York Times API.</p>
+            <p className="card-text"><strong>Tools and Languages:</strong> JavaScript, Foundation, Third-party-api. </p>
           </div>
           <div className="card-footer m-2">
             <small className="text-muted" >
@@ -27,9 +28,10 @@ export default function Portafolio(props) {
           <div className="card-body">
             <h5 className="card-title">E-commerce Backend Project</h5>
             <p className="card-text">Management of product data for e-commerce site.</p>
+            <p className="card-text"><strong>Tools and Languages:</strong> NodeJS, JavaScript, MySQL, Express, Insomnia, Sequelize. </p>
           </div>
           <div className="card-footer m-2">
-            <small className="text-muted"><a href="https://github.com/Enrique246/e-commerce-backend"  target="_blank" rel="noopener noreferrer"><span className="fab fa-github fa-2x" style = {{color:"black"}}><i className="sr-only">Github</i></span></a>&nbsp;&nbsp;&nbsp;<a href="https://drive.google.com/file/d/1v506MqKIUo5dyyOMOWTmC0KyCDeoTIHf/preview" target="blank_">Video 1</a> &nbsp;&nbsp;&nbsp;<a href="https://drive.google.com/file/d/1lCwlO7fEFy4LYcJ92dZJ2NojJS2ULTuO/preview" target="blank_">Video 2</a> </small>
+            <small className="text-muted"><a href="https://github.com/Enrique246/e-commerce-backend"  target="_blank" rel="noopener noreferrer"><span className="fab fa-github fa-2x" style = {{color:"black"}}><i className="sr-only">Github</i></span></a>&nbsp;&nbsp;&nbsp;<a href="https://drive.google.com/file/d/1v506MqKIUo5dyyOMOWTmC0KyCDeoTIHf/preview" target="blank_">Video 1</a> &nbsp;&nbsp;&nbsp;<a href="https://drive.google.com/file/d/1lCwlO7fEFy4LYcJ92dZJ2NojJS2ULTuO/preview" target="blank_"> Video 2</a> &nbsp;&nbsp;&nbsp;<a href="https://drive.google.com/file/d/1p2_Lb32lgkO9DkTvHAGTNFKgoBmjlXow/view" target="blank_">Video 3</a> </small>
           </div>
         </div>
          {/* Box 3 */}
@@ -38,6 +40,7 @@ export default function Portafolio(props) {
           <div className="card-body">
             <h5 className="card-title">Employee Management System</h5>
             <p className="card-text">Back-end app that helps managers add, remove and modify employees.</p>
+            <p className="card-text"><strong>Tools and Languages:</strong> NodeJS, JavaScript, MySQL, Express, Insomnia. </p>
           </div>
           <div className="card-footer m-2">
             <small className="text-muted">
@@ -51,6 +54,7 @@ export default function Portafolio(props) {
           <div className="card-body">
             <h5 className="card-title">Yoga Sudio</h5>
             <p className="card-text">An easy and accesible application for searching and reserving yoga classes.</p>
+            <p className="card-text"><strong>Tools and Languages:</strong> NodeJS, JavaScript, MySQL, Express, Insomnia, Eslint, CSS, Sequelize. </p>
           </div>
           <div className="card-footer m-2">
             <small className="text-muted">
@@ -64,6 +68,7 @@ export default function Portafolio(props) {
           <div className="card-body">
             <h5 className="card-title">Inspire</h5>
             <p className="card-text">A social network that allows users to post, see other users' posts, and buy items in the marketplace.</p>
+            <p className="card-text"><strong>Tools and Languages:</strong> NodeJS, JavaScript, Mongoose, ReactJs, MongoDB, Materialize. </p>
           </div>
           <div className="card-footer m-2">
             <small className="text-muted">
