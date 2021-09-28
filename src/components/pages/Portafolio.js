@@ -73,7 +73,7 @@ export default function Portafolio(props) {
           <div className="card-footer m-2">
             <small className="text-muted">
             <a href="https://github.com/Enrique246/Inspire"  target="_blank" rel="noopener noreferrer"><span className="fab fa-github fa-2x" style = {{color:"black"}}><i className="sr-only">Github</i></span></a>&nbsp;&nbsp;&nbsp;
-              <a href="https://quiet-cliffs-65370.herokuapp.com/" target="blank_">Link to App</a></small>
+              <a href="https://salty-reaches-45303.herokuapp.com/" target="blank_">Link to App</a></small>
           </div>
         </div>
 
